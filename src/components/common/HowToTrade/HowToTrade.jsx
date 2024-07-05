@@ -4,15 +4,15 @@ function HowToTrade() {
             <h2 className="display-4 fw-bolder">How to Trade With <span className="color-red">Crypto</span>Duckling</h2>
             <p>Here are the steps you should follow to trade with our coin:</p>
             <div className="row py-3 justify-content-space-between">
-                <div className="col-md-6 d-flex align-items-center text-center">
+                <div className="col-md-6 d-flex align-items-center text-center my-2">
                     <div className="position-relative">
                         <img src="assets/img/mobile-bg.png" className="img-fluid" alt="" />
                         <img src="assets/img/Play button.png" style={{ position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', maxWidth: '80px' }} alt="" />
                     </div>
                 </div>
-                <div className="col-md-6 d-flex align-items-center text-center">
+                <div className="col-md-6 d-flex align-items-center justify-content-center text-center my-2">
                     <div>
-                        <h4 className="color-red fw-bold text-start">Steps to Trade:</h4>
+                        <h3 className="color-red fw-bold text-start">Steps to Trade:</h3>
                         <ul className="list-unstyled steps-list">
                             <li className="my-2 p-2 rounded-pill">
                                 <div className="d-flex">
