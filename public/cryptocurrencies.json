@@ -1,0 +1,20 @@
+[
+    {
+        "title": "Bitcoin",
+        "image_src": "assets/img/cryptocurrencies/bitcoin.png",
+        "text_content": "Bitcoin is a decentralized digital currency that can be transferred on the peer-to-peer bitcoin network.",
+        "price": "30450.00"
+    },
+    {
+        "title": "Ethereum",
+        "image_src": "assets/img/cryptocurrencies/ethereum.png",
+        "text_content": "Ethereum is a decentralized platform that enables smart contracts and decentralized applications (dApps) to be built and run without any downtime.",
+        "price": "1875.00"
+    },
+    {
+        "title": "Litecoin",
+        "image_src": "assets/img/cryptocurrencies/litecoin.png",
+        "text_content": "Litecoin is a peer-to-peer cryptocurrency and open-source software project released under the MIT/X11 license.",
+        "price": "105.00"
+    }
+]
