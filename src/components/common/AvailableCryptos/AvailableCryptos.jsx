@@ -22,7 +22,7 @@ function AvailableCryptos() {
     }, [])
 
     return (
-        <div className="py-5 container">
+        <div className="py-5 container" id="Cryptos">
             <h2 className="display-4 text-center fw-bolder">Available <span className="color-red">Cryptos</span></h2>
             <p className="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
 

@@ -31,7 +31,7 @@ function Features() {
     ]
 
     return (
-        <div className="container py-5">
+        <div className="container py-5" id="Features">
             <h2 className="display-4 fw-bolder text-center">Attractive <span className="color-red">Features</span></h2>
             <p className="text-center">Here are the available features of CryptoDucklings</p>
             <div className="row">

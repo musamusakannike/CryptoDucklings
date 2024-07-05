@@ -1,6 +1,6 @@
 function HowToTrade() {
     return (
-        <div className="container text-center py-5">
+        <div className="container text-center py-5" id="howItWorks">
             <h2 className="display-4 fw-bolder">How to Trade With <span className="color-red">Crypto</span>Duckling</h2>
             <p>Here are the steps you should follow to trade with our coin:</p>
             <div className="row py-3 justify-content-space-between">

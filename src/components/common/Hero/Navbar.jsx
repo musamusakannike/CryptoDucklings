@@ -1,7 +1,19 @@
 import { useState } from "react";
 
 function Navbar() {
-    const navLinks = ["How it Works", "Cryptos", "Features", "Testimonial", "University"];
+    const navLinks = [{
+        title: "How it Works",
+        destination: "#howItWorks"
+    }, {
+        title: "Cryptos",
+        destination: "#Cryptos"
+    }, {
+        title: "Features",
+        destination: "#Features"
+    }, {
+        title: "Testimonial",
+        destination: "#Testimonial"
+    }];
     const [isNavCollapsed, setIsNavCollapsed] = useState(true);
 
     const handleNavCollapse = () => setIsNavCollapsed(!isNavCollapsed);
@@ -17,7 +29,7 @@ function Navbar() {
                     <ul className="navbar-nav mx-auto">
                         {navLinks.map((navLink, index) => (
                             <li key={index} className="nav-item">
-                                <a className="nav-link text-light" aria-current="page" href="#">{navLink}</a>
+                                <a className="nav-link text-light" aria-current="page" href={navLink.destination}>{navLink.title}</a>
                             </li>
                         ))}
                     </ul>
