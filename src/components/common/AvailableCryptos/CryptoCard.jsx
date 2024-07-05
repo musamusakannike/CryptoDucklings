@@ -1,7 +1,7 @@
 function CryptoCard(props) {
     return (
         <div className="col-md-6 col-lg-4">
-            <div className="card shadow p-1">
+            <div className="card shadow p-1 my-2">
                 <div className="card-img">
                     <img src={props.imageSrc} alt={props.title} />
                 </div>

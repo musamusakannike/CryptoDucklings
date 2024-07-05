@@ -13,8 +13,8 @@ function Hero() {
                 <p className="animate__animated animate__slideInUp">Crypto Market Starts in</p>
                 <Countdown />
                 <div className="cta-buttons animate__animated animate__slideInUp">
-                    <button className="fw-bold button-red mx-2">DOWNLOAD APP</button>
-                    <button className="fw-bold button-outline-red mx-2">TRADE CRYPTO</button>
+                    <button className="fw-bold button-red mx-2 my-1">DOWNLOAD APP</button>
+                    <button className="fw-bold button-outline-red mx-2 my-1">TRADE CRYPTO</button>
                 </div>
                 <div className="text-center animate__animated animate__zoomIn">
                     <p>WE ACCEPT:</p>
